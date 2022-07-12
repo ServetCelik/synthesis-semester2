@@ -1,0 +1,56 @@
+﻿@page
+@model WebApp.Pages.SignUpModel
+@{
+}
+
+
+<form method= "post">
+    <div class = "border p-3 mt-4">
+        <div class = "text-center">
+        <div class="row pb-2">
+            <h2 class= text-primary pl-3"> Create New Account</h2>
+            
+        </div>
+        <div class= "mb-3">
+           <label asp-for="Player.UserName">User Name:</label> 
+           <input type="text" asp-for="Player.UserName" placeholder = "User Name">
+           <span asp-validation-for="Player.UserName"></span>
+        </div>
+
+        <div class= "mb-3">
+           <label asp-for="Player.Password">Password:&nbsp;&nbsp;&nbsp;</label>  
+           <input type="password" asp-for="Player.Password" placeholder="Password">
+           <span asp-validation-for="Player .Password"></span>
+        </div>
+
+        <div class= "mb-3">
+           <label asp-for="Player.Email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label> 
+           <input type="email" asp-for="Player.Email" placeholder = "User Name">
+           <span asp-validation-for="Player.Email"></span>
+        </div>
+
+        <div class= "mb-3">
+           <label asp-for="Player.FirstName">First Name:</label> 
+           <input type="text" asp-for="Player.FirstName" placeholder = "User Name">
+           <span asp-validation-for="Player.FirstName"></span>
+        </div>
+
+        <div class= "mb-3">
+           <label asp-for="Player.LastName">Last Name:&nbsp;</label> 
+           <input type="text" asp-for="Player.LastName" placeholder = "User Name">
+           <span asp-validation-for="Player.LastName"></span>
+        </div>
+
+
+        <div class = "text-center">
+            <button type= "submit" class="btn btn-primary" style= "width:180px">Create</button>
+            <button type="reset" class="btn btn-warning" style= "width: 180px" value= "Cancel">Cancel</button>
+            <p >Do you have an account?</p>
+            <p ><a asp-page="/Login">Click here</a> to login...</p>
+        </div>
+        
+        </div>
+    </div>
+
+
+</form>

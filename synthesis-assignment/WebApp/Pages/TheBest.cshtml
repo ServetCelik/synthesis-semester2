@@ -1,0 +1,78 @@
+﻿@page
+@model WebApp.Pages.TheBestModel
+@{
+}
+<div class = "text-center" style="margin-top:30px;margin-bottom:30px;">
+<h1>The Best Of The Bests Of All Time</h1>
+<h7>(Among the Players Play at Least 5 Matches)</h7>
+</div>
+
+
+<form method="post">
+    @foreach (var item in Model.Types)
+    {
+        <input type="radio" asp-for="Type" value=@item />@item<br />
+    }
+    @*<input type="submit"/>*@
+    <button type="submit" class="btn btn-light">Filter</button>
+</form>
+
+@*<div class= "mb-3">
+           <label asp-for="Player.UserName">User Name:</label> 
+           <input type="text" asp-for="Player.UserName" placeholder = "User Name">
+           <span asp-validation-for="Player.UserName"></span>
+        </div>*@
+
+
+
+@*     <form method="post"> 
+
+           <label asp-for="Filter">Filter By:</label> 
+           <select asp-for="Filter" asp-items= "Model.Filter"></select><br><br>               
+              
+           <button type="submit" asp-page-handler="SeeSchedule">See schedule</button>
+                   
+     </form>*@
+
+
+<table class="table table-bordered table-striped" style="margin-top:30px;margin-bottom:30px;">
+    <thead>
+        <tr>
+        <th class="col-6">
+            Player
+        </th>
+         <th>
+            Win
+        </th>
+         <th>
+            Lost
+        </th>
+        <th>
+            %
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach (var player in @Model.players)
+            {
+                <tr>
+                    <td>
+                            @player.FirstName @player.LastName (@player.UserName)
+                    </td>
+                    <td>
+                            @player.NrOfMatchesWin
+                    </td>
+                     <td>
+                            @player.NrOfMatchesLost
+                     </td>
+                     <td>
+                            @player.WinRate().ToString("0.00")
+                     </td>
+                     </tr>
+            }
+        
+        
+       
+    </tbody>
+    
+</table>

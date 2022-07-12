@@ -1,0 +1,189 @@
+﻿@page
+@model WebApp.Pages.TournamentDetailsModel
+@{
+}
+<div class="text-center">
+   
+
+
+    <table class="table table-bordered table-striped" style="margin-top:30px;margin-bottom:30px;">
+    <thead>
+        <tr>
+        <th>
+            Tournament Name:
+        </th>
+         <th>
+            @Model.TournamentDTO.TournamentName
+        </th>
+        
+    </tr>
+    </thead>
+       <tbody>
+        <tr>
+            <td>
+                Sport Type :
+            </td>
+            <td>
+                @Model.TournamentDTO.SportType
+            </td>           
+        </tr>
+        <tr>
+            <td>
+                Tournament Type :
+            </td>
+            <td>
+                @Model.TournamentDTO.TournamentType
+            </td>           
+        </tr>
+        <tr>
+            <td>
+                Location :
+            </td>
+            <td>
+                @Model.TournamentDTO.Location
+            </td>           
+        </tr>
+        <tr>
+            <td>
+                Start Date :
+            </td>
+            <td>
+                @Model.TournamentDTO.StartDate.ToString("dd/MM/yyyy")
+            </td>           
+        </tr>
+        <tr>
+            <td>
+                End Date :
+            </td>
+            <td>
+                @Model.TournamentDTO.EndDate.ToString("dd/MM/yyyy")
+            </td>           
+        </tr>
+        <tr>
+            <td>
+                Min Players : 
+            </td>
+            <td>
+                @Model.TournamentDTO.MinPlayers
+            </td>           
+        </tr>
+        <tr>
+            <td>
+                Max Players :
+            </td>
+            <td>
+                @Model.TournamentDTO.MaxPlayers
+            </td>           
+        </tr>
+        <tr>
+            <td>
+                Joined Players : 
+            </td>
+            <td>
+                @Model.TournamentDTO.Players.Count
+            </td>           
+        </tr>
+        <tr>
+            <td>
+                Status : 
+            </td>
+            <td>
+                @Model.TournamentDTO.Status
+            </td>           
+        </tr>
+        <tr>
+            <td>
+                Description :
+            </td>
+            <td>
+               @Model.TournamentDTO.Description
+            </td>           
+        </tr>
+        
+        
+        </tbody>
+    
+    </table>
+
+
+
+
+    @if (@*@Model.TournamentDTO.Status == LogicLayer.Enums.Status.applicable*@ true)
+    {
+        <form method= "post">
+          <div class = "border p-3 mt-4">
+          <div class="row pb-2">
+             @*<input type="hidden" asp-for="name==@Model.TournamentDTO.TournamentName" placeholder = "User Name">*@
+              <div class = "text-center">
+                 <button type= "submit" class="btn btn-primary" style= "width:180px">Join</button>           
+           
+              </div>       
+
+          </div>
+        </form>
+    }
+
+    @if (@Model.TournamentDTO.Matches.Count > 0)
+    {
+        <h1>Matches</h1>
+    <table class="table table-bordered table-striped">
+      <thead>
+         <tr>
+           <th>
+            First Player
+           </th>
+           <th>
+            Second Player
+           </th>
+           <th>
+            Scores
+           </th>
+        </tr>
+     </thead>
+     <tbody>
+         @foreach (var match in @Model.TournamentDTO.Matches)
+         {
+          <tr>
+            <td>
+                @match.Player1.FirstName @match.Player1.LastName (@match.Player1.UserName)
+            </td>
+            <td>
+                @match.Player2.FirstName @match.Player2.LastName (@match.Player2.UserName)
+            </td>
+            <td>
+                @match.ShowScores()
+            </td>
+         </tr> 
+         }
+                
+     </tbody>
+    
+    </table>
+
+    
+
+    <h1 style="margin-top:30px;"> Leader Board</h1>
+<table class="table table-bordered table-striped">
+    
+    @foreach (var item in @Model.LeaderBoard)
+       {
+          <tbody>
+
+               <tr>
+                    <td>
+                        @item.Key
+                    </td>
+                    <td>
+                       @item.Value
+                    </td>           
+              </tr>        
+        
+         </tbody>        
+       }
+    
+    
+</table>
+    }   
+
+   
+</div>

@@ -1,0 +1,15 @@
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\DataAccessLayer\bin\Release\net6.0\DataAccessLayer.deps.json
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\DataAccessLayer\bin\Release\net6.0\DataAccessLayer.dll
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\DataAccessLayer\bin\Release\net6.0\DataAccessLayer.pdb
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\DataAccessLayer\bin\Release\net6.0\LogicLayer.dll
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\DataAccessLayer\bin\Release\net6.0\LogicLayer.pdb
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\DataAccessLayer\obj\Release\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\DataAccessLayer\obj\Release\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\DataAccessLayer\obj\Release\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\DataAccessLayer\obj\Release\net6.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\DataAccessLayer\obj\Release\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\DataAccessLayer\obj\Release\net6.0\DataAccessLayer.csproj.CopyComplete
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\DataAccessLayer\obj\Release\net6.0\DataAccessLayer.dll
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\DataAccessLayer\obj\Release\net6.0\refint\DataAccessLayer.dll
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\DataAccessLayer\obj\Release\net6.0\DataAccessLayer.pdb
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\DataAccessLayer\obj\Release\net6.0\ref\DataAccessLayer.dll

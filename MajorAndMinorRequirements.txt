@@ -1,0 +1,11 @@
+Major requirements:
+FR-07: Support multiple sport types
+
+Minor requirements:
+FR-09: Support leader board
+
+
+Extras:
+
+*FR-06: Support multiple tournement systems
+*Generate leader board for all played matches and all player (By win rate and by total win)

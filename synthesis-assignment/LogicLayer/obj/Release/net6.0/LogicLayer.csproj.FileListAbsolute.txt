@@ -1,0 +1,12 @@
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\LogicLayer\bin\Release\net6.0\LogicLayer.deps.json
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\LogicLayer\bin\Release\net6.0\LogicLayer.dll
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\LogicLayer\bin\Release\net6.0\LogicLayer.pdb
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\LogicLayer\obj\Release\net6.0\LogicLayer.csproj.AssemblyReference.cache
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\LogicLayer\obj\Release\net6.0\LogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\LogicLayer\obj\Release\net6.0\LogicLayer.AssemblyInfoInputs.cache
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\LogicLayer\obj\Release\net6.0\LogicLayer.AssemblyInfo.cs
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\LogicLayer\obj\Release\net6.0\LogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\LogicLayer\obj\Release\net6.0\LogicLayer.dll
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\LogicLayer\obj\Release\net6.0\refint\LogicLayer.dll
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\LogicLayer\obj\Release\net6.0\LogicLayer.pdb
+C:\Users\srvtc\Desktop\Second Version\s2-cb06-servet-celik-synthesis-assignment\synthesis-assignment\LogicLayer\obj\Release\net6.0\ref\LogicLayer.dll

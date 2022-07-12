@@ -1,0 +1,38 @@
+﻿
+@if(TempData["Danger"]!=null)
+{
+  <div class="text-center alert alert-dismissible alert-warning">
+  <h3> @TempData["Danger"]</h3>
+  
+</div>
+}
+
+@if(TempData["Success"]!=null)
+{
+  <div class="text-center alert alert-dismissible alert-success">
+  <h3> @TempData["Success"]</h3>
+  
+</div>
+}
+
+@if(TempData["White"]!=null)
+{
+  <div class="text-center alert alert-dismissible alert-light">
+  <h3> @TempData["White"]</h3>
+  
+</div>
+}
+
+@if(TempData["SuccesfullyLogin"]!=null)
+{
+  <div class="text-center alert alert-dismissible alert-warning">
+  <h3> @TempData["SuccesfullyLogin"]</h3>
+  
+</div>
+}
+
+
+ @*<div class = "text-center" style="margin-top:30px;margin-bottom:30px;">
+        
+
+   </div>*@
